@@ -39,8 +39,10 @@ print("div: ", total, " .")
 
 # If
 
+#--------------------------------------#
+# exercicio encontra o maior e o menor #
+#--------------------------------------#
 
-#exercicio encontra o maior e o menor
 val1=2
 val2=3
 val3=4
@@ -60,3 +62,37 @@ elif val3>val1 and val3>val2:
         print("Val3 é o maior e Val2 o menor")    
     else:
         print("Val3 é o maior e Val1 o menor")
+
+if val1>val2 and val2>val3:
+    print("Val1 é o maior e Val3 o menor")
+elif val1>val3 and val3>val2:
+    print("Val1 é o maior e Val2 o menor")
+elif val2>val3 and val3>val1:
+    print("Val2 é o maior e Val1 o menor")
+elif val2>val1 and val1>val3:
+    print("Val2 é o maior e Val3 o menor")
+elif val3>val1 and val1>val2:
+    print("Val3 é o maior e Val2 o menor")
+else:
+    print("Val3 é o maior e Val1 o menor")
+
+
+# match case/switch case
+
+opc=1
+
+print("Prima 1 para bom dia")
+print("Prima 2 para boa tarde")
+print("Prima 3 para sair")
+
+opc=input("Escolha a opcao: ")
+
+match opc:
+    case "1":
+        print("Bom dia")
+    case "2":
+        print("Boa tarde")
+    case "3":
+        print("Sair do programa")
+    case _:
+        print("Erro")
