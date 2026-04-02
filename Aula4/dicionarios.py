@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Dicinarios
 # {} <--- dicionarios -> tipo de ficheiro json
 
