@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 mes=int(input("Indique o numero do mes: "))
 
 if(mes == 1):
@@ -25,4 +26,33 @@ elif(mes == 11):
 elif(mes == 12):
     print("Dezembro")
 else:
+=======
+mes=int(input("Indique o numero do mes: "))
+
+if(mes == 1):
+    print("Janeiro")
+elif(mes == 2):
+    print("Fevereiro")
+elif(mes == 3):
+    print("Março")
+elif(mes == 4):
+    print("Abril")
+elif(mes == 5):
+    print("Maio")
+elif(mes == 6):
+    print("Junho")
+elif(mes == 7):
+    print("Julho")
+elif(mes == 8):
+    print("Agosto")
+elif(mes == 9):
+    print("Setembro")
+elif(mes == 10):
+    print("Outubro")
+elif(mes == 11):
+    print("Novembro")
+elif(mes == 12):
+    print("Dezembro")
+else:
+>>>>>>> ae547a2ce032f2d2508c38f775c151822dc2d86b
     print("Erro! Indique um numero válido!")
