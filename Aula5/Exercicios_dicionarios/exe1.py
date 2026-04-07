@@ -19,11 +19,13 @@ while True:
     print("MENU")
     print("1- Inserir")
     print("2- Listar")
+    print("3- Sair")
 
     opt = input("Insira uma opção: ")
 
     match opt :
         case "1":
+            os.system("cls")
             inserir(alunos)
         case "2":
             os.system("cls")
@@ -36,6 +38,9 @@ while True:
         case "3":
             break
         case _:
+            os.system("cls")
             print("Não inseriste uma opção válida!")
+            print("Pressiona ENTER para voltar.")
+            input()
 
 
